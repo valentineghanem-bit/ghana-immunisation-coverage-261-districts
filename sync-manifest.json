@@ -1,0 +1,14 @@
+{
+  "study_title": "Subnational immunisation coverage gaps and structural determinants in Ghana: ecological equity mapping and an interpretable district risk index across 261 districts",
+  "authors": "Valentine Golden Ghanem",
+  "affiliations": "Ghana COCOBOD Cocoa Clinic, Accra; University of Cape Coast (PhD candidate)",
+  "study_period": "2021-2022",
+  "geographic_scope": "261 districts, Ghana",
+  "sample_size_N": "261",
+  "primary_outcome": "Full immunisation coverage < 80% (high-risk district)",
+  "primary_result": "Logistic regression AUC 0.82; 180/261 (69.0%) districts below target",
+  "top_finding_1": "Immunisation gaps concentrate in a contiguous northern high-vulnerability cluster (Moran's I 0.72)",
+  "top_finding_2": "Logistic regression (AUC 0.82) outperformed RF (0.54) and XGBoost (0.46) under leave-one-region-out validation",
+  "reporting_guideline": "STROBE + RECORD",
+  "target_journal": "Vaccine"
+}

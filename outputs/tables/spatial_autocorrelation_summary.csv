@@ -1,0 +1,4 @@
+variable,morans_I,expected_I,z_sim,p_sim
+IDRI,0.7229,-0.0039,17.503,0.0001
+poverty_incidence,0.664,-0.0039,16.087,0.0001
+illiterate_pct,0.8008,-0.0039,19.496,0.0001

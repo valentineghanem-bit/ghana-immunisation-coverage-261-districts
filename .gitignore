@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# AIPOCH process files (keep repo lean — Tenet 20 / repo-publish-hygiene)
+task_plan.md
+progress.md
+findings.md
+PHASE*_*.md
+STAGE*_*.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Manuscripts NEVER committed to any repo (Tenet 20) — whole folder, incl. .md source
+manuscript/
+node_modules/
+
+# Large raw data lives in ../Research Datasets/ (sibling), never committed here

@@ -1,0 +1,42 @@
+# Article 17 — Ghana Immunisation Equity
+# Python dependencies — wheel-available minimums (CI-installable on Python 3.11–3.13)
+# Install: pip install -r requirements.txt
+# Verified import set 2026-06-26: pandas 3.0.4, numpy 2.2.5, geopandas 1.1.4,
+#   libpysal 4.14.1, esda 2.8.2, shapely 2.1.2, mapclassify 2.10.0, matplotlib 3.10.1
+
+# Data processing
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1
+xlrd>=2.0
+
+# Spatial analysis (Phase 4)
+geopandas>=1.0
+libpysal>=4.12
+esda>=2.6
+splot>=1.1.5
+shapely>=2.0
+pyproj>=3.6
+mapclassify>=2.6
+scipy>=1.13
+
+# Machine learning (Phase 5)
+scikit-learn>=1.4
+xgboost>=2.0
+shap>=0.45
+imbalanced-learn>=0.12
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.22
+kaleido>=0.2.1
+
+# Statistical
+statsmodels>=0.14
+
+# Testing
+pytest>=8.0
+
+# Utilities
+tqdm>=4.66

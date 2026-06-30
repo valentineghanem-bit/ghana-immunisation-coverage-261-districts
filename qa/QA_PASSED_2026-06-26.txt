@@ -1,0 +1,9 @@
+QA PASSED (re-verified post Stage 7-12) — Article 17 (Ghana Immunisation) — 2026-06-26
+Canonical AIPOCH stages 0-13 complete & verified:
+  Stages 0-6 build/evidence/design/spatial/ML  | 7-9 adversarial audit (epid-council) CONDITIONAL PASS, 3 edits applied
+  10 LaTeX (.tex+table1.tex+references.bib, validated; not compiled locally)
+  11 Humanisation LIGHT + academic register (skill updated 2026-06-26)
+  12 Dissemination package (local)  | 13 QA final + /evolve
+Deliverables: Master CSV 261x44 | manuscript docx+pdf+tex (local) | dashboard | poster | repo (LICENSE/CI/11 tests/dict)
+Data integrity: all 9 datasets used (6 model + 3 national context). 11 pytest pass.
+GATE: Stage 14 /github-publish (outward) — requires explicit authorisation.

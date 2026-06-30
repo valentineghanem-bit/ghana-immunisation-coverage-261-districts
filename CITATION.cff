@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Subnational immunisation coverage gaps and structural determinants in Ghana: ecological equity mapping and an interpretable district risk index across 261 districts"
+authors:
+  - family-names: Ghanem
+    given-names: Valentine Golden
+    email: valentineghanem@gmail.com
+    orcid: "https://orcid.org/0009-0002-8332-0220"
+    affiliation: "Ghana COCOBOD Cocoa Clinic, Accra; University of Cape Coast (PhD candidate)"
+abstract: >-
+  Cross-sectional ecological study of childhood immunisation coverage across all 261
+  districts of Ghana, linking 2022 DHS (region-level immunisation, 16 regions) and 2021
+  Census (district-level socioeconomics). Maps region-level coverage, builds an
+  Immunisation District Risk Index (IDRI), tests spatial clustering (Moran's I/LISA/Getis-Ord)
+  and compares logistic regression with random forest and XGBoost under leave-one-region-out
+  cross-validation. Logistic regression (AUC 0.82) outperformed the ensembles, which did not
+  generalise; immunisation gaps concentrate in a northern high-vulnerability cluster.
+keywords:
+  - immunisation
+  - vaccine equity
+  - spatial epidemiology
+  - machine learning
+  - ecological study
+  - Ghana
+  - health equity
+  - Expanded Programme on Immunization
+license: MIT
+repository-code: "https://github.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts"
+version: "1.0.0"
+date-released: "2026-06-26"
