@@ -65,8 +65,8 @@ The de-identified linked analytical dataset is included under `data/processed/`.
 │   └── data_dictionary.md
 ├── scripts/         00 profiling · 00b crosswalk · 01 master · 02 spatial · 03 ML · 04 table1 · 05 national-context
 ├── outputs/         figures/ · maps/ · tables/
-├── dashboard/       index.html (HI-EI interactive dashboard) + ghana_districts_compact.geojson
-├── poster/          poster.html (A0 conference poster)
+├── dashboard/       HI-EI_Dashboard.html + ghana_districts_compact.geojson
+├── poster/          A0_Poster.html (A0 conference poster)
 ├── docs/            phase0_phase1 · phase3_study_design · phase4_spatial · phase5_ml
 ├── evidence/        phase2_evidence_bank.md (24 sources, stratified + contrasting audit)
 ├── tests/           test_master_csv.py (11 tests)
@@ -112,11 +112,14 @@ dependencies, compiles all scripts, and runs the test suite on Python 3.11 and 3
 
 ## 9. Dashboard & poster — view or download
 
-- **Interactive dashboard:** [`dashboard/index.html`](dashboard/index.html) — HI-EI dashboard (region
-  coverage choropleth, ranking, coverage–poverty scatter, LISA, KPIs). Self-contained; open in a browser.
-- **Conference poster:** [`poster/poster.html`](poster/poster.html) — A0 (841 × 1189 mm).
+Both are self-contained offline HTML files (inline ECharts; the dashboard reads a sibling GeoJSON).
 
-> Built with the bespoke HI-EI vanilla-JS + inline-SVG/ECharts pipeline (supersedes the legacy 60 KB ceiling).
+| Artefact | View on GitHub | Live preview | Direct download (raw HTML) |
+|---|---|---|---|
+| Interactive dashboard | [View](https://github.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts/blob/main/dashboard/HI-EI_Dashboard.html) | [Preview](https://htmlpreview.github.io/?https://github.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts/blob/main/dashboard/HI-EI_Dashboard.html) | [Download](https://raw.githubusercontent.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts/main/dashboard/HI-EI_Dashboard.html) |
+| Conference poster (A0) | [View](https://github.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts/blob/main/poster/A0_Poster.html) | [Preview](https://htmlpreview.github.io/?https://github.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts/blob/main/poster/A0_Poster.html) | [Download](https://raw.githubusercontent.com/valentineghanem-bit/ghana-immunisation-coverage-261-districts/main/poster/A0_Poster.html) |
+
+> **Tip:** the dashboard works fully offline once downloaded (keep `ghana_districts_compact.geojson` beside it); the poster is print-ready at A0 (841 × 1189 mm). Open a downloaded copy with `start dashboard\HI-EI_Dashboard.html` (Windows), `open …` (macOS) or `xdg-open …` (Linux). Built with the bespoke HI-EI vanilla-JS + inline-SVG/ECharts pipeline (supersedes the legacy 60 KB ceiling).
 
 ## 10. Data dictionary
 

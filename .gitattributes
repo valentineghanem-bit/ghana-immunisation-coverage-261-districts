@@ -1,0 +1,7 @@
+# Linguist: classify the repo by its analysis code (Python), not generated HTML/data bulk
+dashboard/*.html linguist-generated
+poster/*.html    linguist-generated
+*.geojson        linguist-generated
+outputs/**       linguist-generated
+*.md             linguist-documentation
+*.csv            linguist-detectable=false
